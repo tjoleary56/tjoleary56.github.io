@@ -3,3 +3,7 @@ h1{
   color: orange;
   text-align: center;
 }
+
+nav ul{
+  display: inline;
+}
