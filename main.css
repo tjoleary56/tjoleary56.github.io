@@ -16,4 +16,5 @@ nav ul{
 
 .hero{
   background-image: url("http://7-themes.com/data_images/out/59/6973002-blue-mountains-landscape.jpg");
+  background-size: cover;
 }
