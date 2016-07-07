@@ -13,7 +13,7 @@ p{
   margin-left: 200px;
 }
 
-h2{
+h3{
   text-align: center;
 }
 
@@ -27,7 +27,3 @@ nav ul{
   display: inline;
 }
 
-.hero{
-  background-image: url("images/mountains.jpg");
-  background-size: cover;
-}
