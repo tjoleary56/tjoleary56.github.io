@@ -30,3 +30,9 @@ nav ul{
   float: right;
 }
 
+img {
+  positon: fixed;
+  top:200px;
+  left:10px;
+}
+
