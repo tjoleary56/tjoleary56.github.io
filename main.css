@@ -6,6 +6,11 @@ h1{
   left: 25px;
 }
 
+.hero{
+  background-image: url("http://marshall.org/wp-content/themes/marshall/img/featured-space-policy.jpg");
+  background-size: cover;
+}
+
 .projects{
   border: 2px solid #000;
   text-align: center;
@@ -23,6 +28,7 @@ nav li {
   margin: 0;
   padding: 0 10px;
   display: inline; 
+  border: 2px solid red;
 }
 
 nav ul{
