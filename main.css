@@ -1,6 +1,6 @@
 h1{
   font-size: 32px;
-  color: red;
+  color: orange;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -33,6 +33,6 @@ nav ul{
 img {
   positon: fixed;
   top:200px;
-  left:10px;
+  left:0px;
 }
 
