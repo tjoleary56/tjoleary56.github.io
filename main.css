@@ -6,7 +6,7 @@ h1{
   left: 25px;
 }
 
-.hero{
+html{
   background-image: url("http://marshall.org/wp-content/themes/marshall/img/featured-space-policy.jpg");
   background-size: cover;
 }
