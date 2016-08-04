@@ -32,9 +32,9 @@ nav ul{
 }
 
 img {
-  positon: relative;
+  position: relative;
   top: 0px;
-  left: 40px;
+  left: 20px;
   border: 2px solid black;
 }
 
