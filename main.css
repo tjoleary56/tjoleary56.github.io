@@ -32,8 +32,8 @@ nav ul{
 }
 
 img {
-  positon: fixed;
-  top:200px;
-  left:0px;
+  positon: relative;
+  top: 0px;
+  left: 20px;
 }
 
