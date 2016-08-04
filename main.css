@@ -1,5 +1,5 @@
 h1{
-  font-size: 32px;
+  font-size: 50px;
   color: orange;
   position: fixed;
   top: 0px;
@@ -11,15 +11,6 @@ html{
   background-size: cover;
 }
 
-.projects{
-  border: 2px solid #000;
-  text-align: center;
-  padding: 15px;
-  margin-top: 50px;
-  margin-right: 200px;
-  margin-left: 200px;
-}
-
 h3{
   text-align: center;
 }
@@ -28,12 +19,16 @@ nav li {
   margin: 0;
   padding: 0 10px;
   display: inline; 
-  border: 2px solid red;
+  border: 2px solid orange;
 }
 
 nav ul{
   display: inline;
-  float: right;
+  float: center;
+  position: relative;
+  top: 150px;
+  left: 80px;
+  font-size: 100px;
 }
 
 img {
