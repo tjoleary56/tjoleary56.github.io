@@ -35,5 +35,6 @@ img {
   positon: relative;
   top: 0px;
   left: 40px;
+  border: 2px solid black;
 }
 
