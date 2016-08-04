@@ -1,6 +1,6 @@
 h1{
   font-size: 50px;
-  color: orange;
+  color: red;
   position: fixed;
   top: 0px;
   left: 25px;
@@ -19,7 +19,7 @@ nav li {
   margin: 0;
   padding: 0 10px;
   display: inline; 
-  border: 2px solid orange;
+  border: 2px solid red;
 }
 
 nav ul{
