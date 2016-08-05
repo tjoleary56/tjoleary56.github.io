@@ -38,3 +38,9 @@ img {
   border: 2px solid black;
 }
 
+.hpContact{
+  position: relative;
+  left: 20px;
+  color: red;
+}
+
