@@ -24,14 +24,10 @@ img {
 }
 
 .hp_filter{
-  margin: 0;
-  padding: 0 10px;
-  display: inline; 
-  border: 2px solid black;
+
   float: center;
   position: relative;
-  top: 200px;
-  left: 80px;
+
   font-size: 100px;
 }
 
