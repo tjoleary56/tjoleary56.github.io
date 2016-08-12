@@ -50,3 +50,18 @@ img {
   font-size: 30px;
   border: 1px solid black;
 }
+
+.about_filter{
+  display: inline;
+  position: relative;
+  font-size: 30px;
+  border: 1px solid black;
+}
+
+.projects_filter{
+  display: inline;
+  position: relative;
+  font-size: 30px;
+  border: 1px solid black;
+}
+
