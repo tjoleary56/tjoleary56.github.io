@@ -23,11 +23,10 @@ img {
   
 }
 
-#hp_filter{
+#hp_Contact, #hp_About, #hp_Projects{
   display:inline;
   float: center;
   position: relative;
-
   font-size: 100px;
 }
 
