@@ -23,8 +23,8 @@ img {
   
 }
 
-.hp_filter{
-
+#hp_filter{
+  display:inline;
   float: center;
   position: relative;
 
