@@ -44,3 +44,9 @@ img {
   color: red;
 }
 
+.contact_filter{
+  display: inline;
+  position: relative;
+  font-size: 30px;
+  border: 1px solid black;
+}
