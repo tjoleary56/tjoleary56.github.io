@@ -1,60 +1,6 @@
-h1{
-  font-size: 50px;
-  color: red;
-  position: relative;
-  top: 0px;
-  left: 25px;
+.jumbotron{
+  color: orange;
+  background: transparent;
 }
 
-html{
-  background: url("images/mountains.jpg") no-repeat;
-  background-size: cover;
-}
-
-h3{
-  text-align: center;
-}
-
-img {
-  position: relative;
-  top: 0px;
-  left: 30px;
-  border: 2px solid black;
-  
-}
-
-#hp_Contact, #hp_About, #hp_Projects{
-  display:inline;
-  padding: 15px;
-  float: center;
-  position: relative;
-  font-size: 100px;
-}
-
-.hpContact{
-  position: relative;
-  left: 30px;
-  color: red;
-}
-
-.contact_filter{
-  display: inline;
-  position: relative;
-  font-size: 30px;
-  border: 1px solid black;
-}
-
-.about_filter{
-  display: inline;
-  position: relative;
-  font-size: 30px;
-  border: 1px solid black;
-}
-
-.projects_filter{
-  display: inline;
-  position: relative;
-  font-size: 30px;
-  border: 1px solid black;
-}
 
