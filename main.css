@@ -2,3 +2,7 @@
 .carousel-inner img {
   margin: auto;
 }
+
+.jumbotron {
+  background-color: #d0dfe5;
+}
