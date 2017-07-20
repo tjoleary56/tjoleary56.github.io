@@ -1,8 +1,4 @@
 
-.carousel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.carousel-inner img {
+  margin: auto;
 }
-
-
