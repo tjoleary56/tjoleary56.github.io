@@ -24,10 +24,7 @@
   <!-- the meat of the page yo -->
   <body>
     
-      <div class="jumbotron text-center">
-        <h1>It's a Raffle!</h1>
-      </div>
- 
+    
     <!-- button group About, Projects, Personal: start -->
     <div class="btn-group btn-group-justified">
       <a href="about.html" class="btn btn-primary">About</a>
@@ -35,7 +32,19 @@
       <a href="#" class="btn btn-primary">Personal</a>
     </div>
     <!-- button group About, Projects, Personal: end -->
-      
+    
+      <div class="jumbotron text-center">
+        <h1>It's a Raffle!</h1>
+         <form class="form-inline">
+          <div class="input-group">
+              <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-danger">Subscribe</button>
+          </div>
+          </div>
+          </form>
+      </div>
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
