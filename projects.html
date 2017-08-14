@@ -1,55 +1,48 @@
 <!DOCTYPE html>
-
-
-<html>
+<html lang="en">
   <head>
-    <title>Projects</title>
-    <meta charset = "utf-8"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Timothy O'Leary's Website</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="main.css" rel="stylesheet"> -->
+    
     <link rel = "stylesheet" type = "text/css" href = "main.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   
-  <h2>Projects</h2>
-  
-  <div class = "projects_filter">
-   <nav>
-   <ul>
-    <li> <a href = "about.html" style = “float: none; width: auto;” >About</a></li>
-    <li> <a href = "raffle.html" style = “float: none; width: auto;” >Raffle</a></li>
-    <li> <a href = "index.html" style = “float: none; width: auto;” >Home</a></li>
-  </ul>
-     </nav>
-     </div>
-     
+  <!-- the meat of the page yo -->
   <body>
-  <p>  Currently working on a Java web game, a few R scripts and web apps, and my website that is hosted through github.</p>
-  <h3>My Internship</h3>
-           <p>  I work as a technical intern at Autoliv Electronics in Lowell, MA where I mainly work with data analysis.  When I began the job,
-           I was nervous and didn't know what to expect, but not before long I was settled in and started to understand how things
-            go in my field of work.  Autoliv is an automotive company with many facilites that focus on creating and improving
-            safety features for vehicles, at my specific location we focus on the development of radars that go into vehicles.
-              I have been working with Microsoft Excel and the statistical computing language, R.  Currently, I'm developing a
-               couple of web apps using an R package called 'shiny' and it has been a great learning experience.  
-               I was not familiar with R before starting my internship, but I feel that I have been learning more than I expected
-                with this language.  I have taken no formal class that tought me how to use R, so I have been learning it on my own
-                 and I'm excited to see what I can do with it by the end of my internship.</p>
-                 
-                 <h3>Projects</h3>
-                 <p>I'm developing two web apps using R and a web game using Java.</p>
-                 
-                 <p>1)  One of the web apps is used to take in an excel
-                 file where the user is then given optins on how they want to filter their data.  The user is allowed to choose
-                  which column they would like their data to be filtered by.  The user is given three text boxes where one can type in 
-                  strings of what they would like their data to be filtered by.  Then a download button can be pressed to export an excel
-                  workbook containing a sheet with their original data, and up to three other sheets with their filtered data.</p>
-                  
-                   <p>2)  The other web app takes in an excel file and allows the user to choose which columns they would
-                    like to plot as their x and y variables.  There are options for five different plot types, color types, and
-                     a text box to type in a title for the plot.</p>
-                     
-                     <p>3)  My web game is based on the tutorial videos from RealTutsGML on youtube.  It is a platformer game
-                      in its infancy and I plan to create about 15 - 20 levels of varying difficulty for the game.</p>
-                      
-                      <p>When I'm done with my projects I will either include them on my website or give links to them.  
-                      I plan to realease initial fully functioning versions and update them with added features.</p>
+    
+    
+    <!-- button group About, Projects, Personal: start -->
+    <div class="btn-group btn-group-justified">
+      <a href="about.html" class="btn btn-primary">About</a>
+      <a href="projects.html" class="btn btn-primary">Projects</a>
+      <a href="index.html" class="btn btn-primary">Home</a>
+    </div>
+    <!-- button group About, Projects, Personal: end -->
+    
+      <div class="jumbotron text-center">
+        <h1>It's a Raffle!</h1>
+        <a href="subscribe.html" class="btn btn-danger" role="button">Subscribe</a>
+      </div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
   </body>
-  </html>
+</html>
