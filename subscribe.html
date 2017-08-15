@@ -49,8 +49,8 @@
       </div>
     
     <?php
-$pwdErr = $emailErr = "";
-$pwd = $email = "";
+$emailErr = "";
+$email = "";
   
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["email"])) {
@@ -60,12 +60,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
       $emailErr = "Invalid email format"; 
     }
-  }
-
-if (empty($_POST["pwd"])) {
-    $pwdErr = "Password is required";
-  } else {
-    $pwd = test_input($_POST["pwd"]);
   }
 }
 
@@ -80,7 +74,7 @@ function test_input($data) {
     
     
     
-      <div class="container-fluid text-center">
+      <!--<div class="container-fluid text-center">
         
         <div class="col-sm-4">
           <h2>my dude</h2>
@@ -107,7 +101,17 @@ function test_input($data) {
           <h2>my dude</h2>
         </div>
      
-     </div>
+     </div> //-->
+    
+    
+
+<p><span class="error">* required field.</span></p>
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+  E-mail: <input type="text" name="email" value="<?php echo $email;?>">
+  <span class="error">* <?php echo $emailErr;?></span>
+  <br><br>
+  <input type="submit" name="submit" value="Submit">  
+</form>
     
     <?php
 echo "<h2>Your Email:</h2>";
