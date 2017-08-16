@@ -48,32 +48,6 @@
         <h1>Fill in the Form!</h1>
       </div>
     
-    <?php
-$emailErr = "";
-$email = "";
-  
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  if (empty($_POST["email"])) {
-    $emailErr = "Email is required";
-  } else {
-    $email = test_input($_POST["email"]);
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-      $emailErr = "Invalid email format"; 
-    }
-  }
-}
-
-function test_input($data) {
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
-}
-?>
-    
-    
-    
-    
       <div class="container-fluid text-center">
         
         <div class="col-sm-4">
@@ -81,7 +55,7 @@ function test_input($data) {
         </div>
         
         <div class="col-sm-4">
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+        <form action="<welcome.php" method="post">
             <div class="form-group">
                 <label for="email">Email address:</label>
                 <input type="email" class="form-control" id="email" name="email">
@@ -102,13 +76,6 @@ function test_input($data) {
         </div>
      
      </div> 
-    
-    <?php
-echo "<h2>Your Email:</h2>";
-echo $email;
-?>
-
-      
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
