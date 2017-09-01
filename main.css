@@ -9,4 +9,10 @@
   padding: 100px 25px;
 }
 
+ .panel {
+      border: 1px solid #00BFFF; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+
 
