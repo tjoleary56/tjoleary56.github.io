@@ -15,4 +15,15 @@
       transition: box-shadow 0.5s;
   }
 
+.panel-heading {
+      color: #fff !important;
+      background-color: #00BFFF !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+
 
