@@ -4,20 +4,20 @@
 }
 
 .jumbotron {
-  background-color: #87CEEB;
+  background-color:#1E90FF;
   color: #FFF;
   padding: 100px 25px;
 }
 
  .panel {
-      border: 1px solid #87CEEB; 
+      border: 1px solid #1E90FF; 
       border-radius:0 !important;
       transition: box-shadow 0.5s;
   }
 
 .panel-heading {
       color: #fff !important;
-      background-color: #87CEEB !important;
+      background-color: #1E90FF !important;
       padding: 25px;
       border-bottom: 1px solid transparent;
       border-top-left-radius: 0px;
